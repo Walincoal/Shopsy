@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    
+    
+}
+body{
+    background-color: black;
+    background-image: url(./Images/NG-en-20250623-TRIFECTA-perspective_d92c04dd-37b6-4850-82ff-e5196be945f1_small.jpg); opacity: 1;
+    
+}
+.nav-link{
+    /* border: 2px solid black; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav-link h1{
+    color: red;
+    font-weight: 900;
+    font-size: 2.6em;
+    z-index: 20px;
+}
+
+.nav-link .btn1{
+    background-color: red;
+    padding: 4px 20px ;
+  border-radius: 6px;
+  border: none;
+  z-index: 20px;
+}
+
+.nav-link .btn1 a{
+    color: white;
+    font-weight: 700;
+}
+
+.hero-sect{
+    border: 2px solid black;
+    color: white;
+    width: 80%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100%;
+  
+}
+
+
+.hero-sect h1{
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    position: absolute;
+    z-index: 300px;
+    top: 200px;
+    right: 280px;
+}
+
+
+.hero-sect .p1{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    position: absolute;
+    top: 360px;
+    right: 360px;
+    z-index: 100%;
+}
+
+.hero-sect .sect .p2{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 1em;
+    top: 430px;
+    left: 350px;
+    z-index: 200px;
+    
+}
+
+.hero-sect .sect .email{
+    width: 300px;
+    border: none;
+    padding: 18px;
+    position: absolute;
+    top: 500px;
+    left: 380px;
+    opacity: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+
+.btn2{
+    background-color: red;
+    padding: 8px 30px;
+    position: absolute;
+    top: 506px;
+    right: 350px;
+}
+.btn2 a{
+    color: white;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.fa-solid{
+    color: white;
+}
+
+
+@media (max-width:2560px){
+    .hero-sect .sect{
+        display: flex;
+      
+
+    }
+
+    .hero-sect .sect h1{
+        left: 300px;
+        font-size: 4em;
+    }
+
+    .hero-sect .sect .p1{
+        left: 300px;
+        font-size: 2em;
+
+    }
+
+    .hero-sect .sect .p2{
+        right: 400px;
+        font-size: 1.6em;
+    }
+  .hero-sect .sect .email{
+        left: 620px;
+        font-size: 2em;
+        width: 400px;
+        padding: 18px;
+    }
+
+      .hero-sect .sect .btn2{
+        right: 680px;
+        font-size: 1.6em;
+    }
+
+
+
+}
+
+@media (max-width:2524px){
+    .hero-sect .sect{
+        width: 100%;
+        display: flex;
+        gap: 2em;
+      
+
+    }
+
+    .hero-sect .sect h1{
+        left: 300px;
+        font-size: 4em;
+    }
+
+    .hero-sect .sect .p1{
+        left: 300px;
+        font-size: 2em;
+
+    }
+
+    .hero-sect .sect .p2{
+        right: 400px;
+        font-size: 1.6em;
+    }
+  .hero-sect .sect .email{
+        left: 620px;
+        font-size: 2em;
+        width: 400px;
+        padding: 18px;
+    }
+
+      .hero-sect .sect .btn2{
+        right: 680px;
+        font-size: 1.6em;
+    }
+}
+
+
+@media(max-width:2517px){
+    .sect{
+        width: 100%;
+    }
+
+     .hero-sect .sect .email{
+        width: 300px;
+    }
+}
+
+@media(max-width:2407px){
+    .sect{
+        width: 100%;
+    }
+
+     .hero-sect .sect .email{
+        width: 300px;
+    }
+
+     .hero-sect .sect .btn2{
+        width: 300px;
+        padding: 8px;
+    }
+}
+
+
+@media(max-width:2386px){
+    .hero-sect{
+        width: 100%;
+    }
+      .hero-sect .sect .email{
+        width: 300px;
+    }
+  .hero-sect .sect .btn2{
+        width: 300px;
+        padding: 8px;
+    }
+    
+
+}
+
+@media(max-width:1910px){
+    .hero-sect{
+        width: 100%;
+    }
+
+    .sect{
+        width: 100%;
+    }
+        .hero-sect .sect .email{
+        width: 300px;
+    }
+  .hero-sect .sect .btn2{
+        width: 300px;
+        padding: 8px;
+        right: 500px;
+    }
+    
+
+
+}
+
+@media(max-width:1740px){
+     .hero-sect{
+        width: 100%;
+    }
+
+    .sect{
+        width: 100%;
+    }
+        .hero-sect .sect .email{
+        width: 300px;
+    }
+  .hero-sect .sect .btn2{
+        width: 300px;
+        padding: 8px;
+        right: 400px;
+    }
+    
+
+}
+
+
+@media(max-width:1641px){
+     .hero-sect{
+        width: 100%;
+    }
+
+    .sect{
+        width: 100%;
+    }
+        .hero-sect .sect .email{
+        width: 300px;
+        left: 400px;
+    }
+  .hero-sect .sect .btn2{
+        width: 300px;
+        padding: 8px;
+        right: 500px;
+    }
+    
+
+}
+
+@media(max-width:1505px){
+    .hero-sect{
+        width: 100%;
+    }
+    .sect
+    {width: 80%;
+    
+    }
+      .hero-sect .sect .email{
+        width: 300px;
+        left: 400px;
+    }
+  .hero-sect .sect .btn2{
+        width: 300px;
+        padding: 8px;
+        right: 300px;
+    }
+    
+}
+
+@media(max-width:1305px){
+     .hero-sect .sect .email{
+        width: 300px;
+        left: 300px;
+        top: 650px;
+    }
+      .hero-sect .sect .btn2{
+        width: 300px;
+        padding: 8px;
+        right: 200px;
+        top: 650px;
+    }
+
+    .hero-sect .sect .p1{
+    top: 500px;
+    display: flex;
+}
+   .hero-sect .sect .p2{
+    display: flex;
+    flex-direction: row;
+    top: 550px;
+   }
+
+
+}
+
+@media(max-width:1107px){
+    .hero-sect{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;}
+        
+        
+    
+    .hero-sect .sect .p1{
+    top: 450px;
+    display: flex;}
+
+     .hero-sect .sect .p2{
+    display: flex;
+    top: 500px;
+   }
+.hero-sect .sect .btn2{
+    right: 100px;
+}
+
+}
+
+
+@media(max-width:1038px){
+.hero-sect{
+    width: 100%;
+}
+
+.hero-sect .sect h1{
+    top: 100px;
+}
+
+.hero-sect .sect .p1{
+    top: 400px;
+}
+}
+
+
+@media(max-width:1000px){
+    .hero-sect{
+        width: 100%;
+    }
+     .hero-sect .sect .email{
+        left: 200px;
+       
+    }
+
+     .hero-sect .sect .btn2{
+        right: 130px;
+       
+    }
+
+
+}
+
+@media(max-width:992px){
+    .hero-sect{
+        width: 100%;
+    }
+    .hero-sect .sect .email{
+        left: 160px;
+       
+    }
+
+      .hero-sect .sect .btn2{
+        right: 160px;
+       
+    }
+}

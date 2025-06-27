@@ -1,50 +1,233 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./landingpage.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Netflix Nigeria - Watch TV shows Online, Watch movies Online</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="shortcut icon" href="./images/netflix-imge3-removebg-preview.png" type="image/x-icon">
+  <link rel="stylesheet" href="./netflix.css">
 </head>
 
 <body>
-    <nav class="nav-link">
-
-        <ul class="left-side">
-            <a href=""><img src="./Images/ycomlogo.png" alt="" class="logo"></a>
-            <li><a href="">About</a></li>
-            <li><a href="">Companies</a></li>
-            <li><a href="">Startup Jobs</a></li>
-            <li><a href="">Find a Co-Founder</a></li>
-            <li><a href="">Library</a></li>
-            <li><a href="">SAFE</a></li>
-            <li><a href="">Resources</a></li>
-        </ul>
-        <div class="right-side">
-            <i class="fa-solid fa-bars"></i>
-            <p>Apply for <span>F2025 </span>batch.</p>
-            <button class="applybtn"><a href="">Apply</a></button>
-
-        </div>
+  <div class="header">
+    <nav>
+      <img src="./Images/imgi_2_Netflix_Logo_PMS.png" alt="" class="logo">
+      <div>
+        <button>Sign In</button>
+      </div>
     </nav>
-
-    <section class="hero-sect">
-        <div class="hero-text">
-            <h1>Y Combinator</h1>
-            <p>Make something people <br> want</p>
-            <button class="hero-btn"><a href="">Apply to YC</a></button>
+    <div class="header-content">
+      <h1>Unlimited movies, TV <br> shows, and more</h1>
+      <h5>Start at ₦2,200. Cancel anytime.</h5>
+      <p>Ready to watch? Enter your email to create or restart your membership.</p>
+      <form action="email" class="email-input">
+        <input type="email" placeholder="Email address" required>
+        <button>Get Started</button>
+      </form>
+    </div>
+  </div>
+  <div class="main">
+    <h2>Trending Now</h2>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Images/AAAABcNmdTnXcmi3id7L0kfo5J_7_Z64aVkLxyVpFzYM42YTyQcQuQhB40z2Yg8peYM6oPFHcKUL4WocCx6IUktUPEieKfZFJhwHMX4.webp" alt="" class="logo2">
+          <img src="./Images/AAAABeysJ_o0Fqo2Esnk8H3hp3V1VarIGpeg_GoiaL3A4_BLVb29OEEM1b17gQxKFblxZaEl42kzUG8QkRINoZ4HHxAN8N-WoN_YF_fcPYgiIiq03s81yru4DEvGn7SiPnW55-JK.webp" alt="" class="logo2">
+          <img src="./Images/AAAABfrQ-ytQxZb4vAuUegqLRC6Mzo4qEMKBNKiYSsEqK16hUyXOUO2f7CZchxO_b4lhknmpf0C2ocJMYF1jChy3YpV3M5Osq7oVADhGKdJWQyaHA50EtvmM0TdxspGTAbQQHctr.webp" alt="" class="logo2">
+          <img src="./Images/AAAABRGbPRhY1c-cAITcSRsASYuAKn8Qff0TY4sT1tsuXyL9YScIolKsmUXQcz0-Ap5fUmfNmgLv0RUEqXoLM8K0-y3QmNzSOegZ0sjg67UvW85SeE0sV-5D8dydq7BEcxam2S8n.webp" alt="" class="logo2">
         </div>
-
-        <div class="hero-image">
-            <img src="./Images/garry_and_sam-BDiyZpUw.webp" alt="" class="hero-image">
+        <div class="carousel-item">
+          <img src="./Images/AAAABRnUFyZYWxRRxZAg2NMNMUPmYFH2ZZXv-XXUNQ7YXBi0b6I8EIXBNbMzRIW7XfNlWXwfU7jwVBaa0LfCi9NJqSgdBo1cwLEaSI4.webp" alt="" class="logo2">
+          <img src="./Images/AAAABTfKPa9GQQYH9sRkSKIh8oVudq3kI3dlgj-XKXNQAnFrkkBk3h2C6UgrR2ZtrneAW-hx0MkocgffgSa2j-jYT69y1ZPp_HARZCQEO_221rIoUVhdUU5OQzamZFjcvvktpn2V.webp" alt="" class="logo2">
+          <img src="./Images/AAAABTsIHqmKvuiJaunFg-3M7eRlEBPik8Un-eqTK-od9x48LzeGITagPm82bIopTRvyhIEMehQNdXN2qfj0AVpDTMhftqYStaCieJdbO-jfhSkFUVGBs9eYkpkjdzOj_UCKZi53.webp" alt="" class="logo2">
+          <img src="./Images/AAAABWZSa7VgrqvHh6OJo-bj3gX2DurWDFuG8diIZYoQTlKiFBfJomQ_qI6u4Z_xQQbUliF8oFGD1lUivZILH_JS2uic_lTfweSeiDp8szCkATZ3uQePq-EK93bBchjkIv0k2qi4.webp" alt="" class="logo2">
         </div>
+        <div class="carousel-item">
+          <img src="./Images/AAAABYU_mXyj_56BDm0cIaXyUp-cLZJdH_U_Tcycjaq1eTkGsNVzz55587Xn0ATcZc_SlaRUso9ilejnCbrdgIits6APj5OvFkzR3Js.webp" alt="" class="logo2">
+          <img src="./images/img10.webp" alt="" class="logo2">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="card-h2">
+    <h2>More Reason To Join</h2>
+  </div>
+  <div class="card-sect">
+    <div class="card-body">
+      <h5>Enjoy on your TV</h5>
+      <p>Watch on Smart TVs, Playstation, Xbox,
+        Chromecast, Apple TV, Blu-ray players, and more.</p>
+    </div>
+    <div class="card-body">
+      <h5>Download your shows to watch offline</h5>
+      <p>Save your favorites easily and always have
+        something to watch.</p>
+    </div>
+    <div class="card-body">
+      <h5>Watch Everywhere</h5>
+      <p>Stream unlimited movies and TV shows on your
+        phone, tablet, laptop, and TV.</p>
+    </div>
+    <div class="card-body">
+      <h5>Create profiles for kids</h5>
+      <p>Send kids on adventures with their favorite characters in a space made just for them — free with your
+        membership.</p>
+    </div>
+  </div>
+  <div class="accord-sect">
+    <h1 class="h1">Frequently Asked Questions</h1>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            What is Netflix?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Netflix is a streaming service that offers a wide variety of award-winning TV
+            shows, movies, anime, documentaries, and more on thousands of internet-connected devices. <br><br>You can
+            watch as much as you want, whenever you want without a single commercial – all for one low monthly price.
+            There's always something new to discover and new TV shows and movies are added every week!</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            How much does Netflix cost?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device,
+            all for one fixed monthly fee. Plans range from ₦2,200 to ₦7,000 a month. No extra costs, no contracts.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Where can I watch?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on
+            the web at netflix.com from your personal computer or on any internet-connected device that offers the
+            Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+            <br><br>You can also download your favorite shows with the iOS or Android app. Use downloads to watch while
+            you're on the go and without an internet connection. Take Netflix with you anywhere.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            How do I cancel?
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Netflix is flexible. There are no pesky contracts and no commitments. You can
+            easily cancel your account online in two clicks. There are no cancellation fees - start or stop your account
+            anytime.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+            What can I watch on Netflix?
+          </button>
+        </h2>
+        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Netflix has an extensive library of feature films, documentaries, TV shows, anime,
+            award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+            Is Netflix good for Kids?
+          </button>
+        </h2>
+        <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">The Netflix Kids experience is included in your membership to give parents control
+            while kids enjoy family-friendly TV shows and movies in their own space. <br><br>Kids profiles come with
+            PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and
+            block specific titles you don't want kids to see.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- ---section signin-- -->
+  <div class="sect-signin">
+    <p>Ready to watch? Enter your email to create or restart your membership.
+    </p>
+    <form action="" class="signin-button">
+      <input type="email" placeholder="Email address" required>
+      <button class="signin-button2">Get Started</button>
+    </form>
+  </div>
 
-    </section>
+  <!-- --footer-section-- -->
+   <footer>
+    <div class="footer-section">
+      <div class="question">
+        <p><a href="">Questions? Contact Us.</a></p>
+      </div>
 
+      <div class="footer-list">
+        <div class="list-sect">
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Investor Relations</a></li>
+          <li><a href="">Privacy</a></li>
+          <li><a href="">Speed Test</a></li>
+        </div>
+        <div class="list-sect">
+          <li><a href="">Help Center</a></li>
+          <li><a href="">Jobs</a></li>
+          <li><a href="">Cookie Preferences</a></li>
+          <li><a href="">Legal Notices</a></li>
+        </div>
+        <div class="list-sect">
+          <li><a href="">Account</a></li>
+          <li><a href="">Ways to Watch?</a></li>
+          <li><a href="">Corporate Information</a></li>
+          <li><a href="">Only on Netflix</a></li>
+        </div>
+        <div class="list-sect">
+          <li><a href="">Media Center</a></li>
+          <li><a href="">Terms of Use</a></li>
+          <li><a href="">Contact Us</a></li>
+        </div>
+      </div>
+      <br><br>
+      <div>
+        <select name="language" id="language" class="english">
+          <option value="en">English</option>
+        </select>
+      </div>
+      <br>
+      <div class="footer-text">
+        <p>Netflix Nigeria</p>
+      </div>
+    </div>
+   </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 
 </html>

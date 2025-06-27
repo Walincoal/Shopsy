@@ -6,103 +6,102 @@
     list-style-type: none;
 }
 
-nav{
-    border: 2px solid black;
-    padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #F5F5EE;
-    border: none;
+body{
+    background-color: black;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Images/NG-en-20250623-TRIFECTA-perspective_d92c04dd-37b6-4850-82ff-e5196be945f1_small.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .logo{
-    width: 70px;
+    width: 200px;
+    cursor: pointer;
 }
 
-.left-side{
+nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 1em;
+    padding: 10px 0;
+}
+
+nav button{
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    padding:10px;
+    background-color: #e50914;
+}
+nav button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header-content button{
+    background-color: #e50914;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    /* overflow: hidden; */
+}
+
+.header-content button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#hr{
+    width: 40%;
+    height: 8px;
+    background-color:gray;
     
 }
 
-.right-side{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-}
-
-ul a{
-    color: black;
-}
-
-.applybtn{
-    padding:10px 18px;
-    border-radius: 8px;
-    background-color: #FB651E;
-    border: none;
-}
-
-.applybtn a{
-    color: white;
-    font-size: 16px;
+.header-content h1{
+    font-size: 60px;
+    line-height: 70px;
     font-weight: 500;
-
+    max-width: 650px;
 }
 
-.right-side span{
-   
-    font-weight: bold;
+.header-content h4{
+    font-weight: 400;
+    margin-bottom: 20px;
 }
-
-.fa-bars{
-    visibility: hidden;
-}
-
-@media(max-width:1056px){
-    nav{
-        width: 100%;
-    }
-}
-
-@media(max-width:988px){
-
-
-    .nav-link{
-        display: flex;
-        justify-content: space-between;
-    }
-}
-
-@media(max-width:946px){
- .nav-link .left-side li{
-    visibility: hidden;
- }
-
- .nav-link .right-side p{
-    visibility: hidden;
- }
-
- .nav-link .right-side{
+.email-signup{
+    background-color: #fff;
+    border-radius: 4px;
     display: flex;
-    justify-content: space-around;
-    gap: 1em;
- }
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
 
-.fa-bars{
-visibility: visible;
-font-size: 2.6em;
- }
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: lightgreen;
+    margin-left: 20px; 
 }
 
-
-.hero-sect{
-    border: 2px solid black;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+.carousel-item{
+    width: 600px;
 }
-
